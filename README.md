@@ -2,9 +2,9 @@
 
 This project was done as an assignment for Virginia Tech ECE 4534 Embedded System Design. In order to avoid violating the honor code in case this assignment is reused, the full project will not be uploaded.
 
-This is my Senior Design project for my Embedded System Design course. The problem statement required that the team design a rover that would find an object on a field with obstacles. With a four man team, each person must be responsible for a single autonomous part.
+This is my Senior Design project for my Embedded System Design course. The problem statement required that the team design a rover that would find an object on a field with obstacles. With a four man team, each person must be responsible for a single autonomous part. Due to COVID-19 causing all classes to go online, teams were unable to meet to do the final demonstration where each part came together.
 
-The final design consisted of a two rovers, a leader and follower pair. The leader rover would search for the object and signal the follower rover when it should continue following. When the leader rover finds the object, a robotic arm mounted on the leader rover would pick up the object and place it onto the follower rover. The design was broken up into four autonomous parts: navigation, driving the rover, movement of the robotic arm, and the follower rover. I was responsible for the follower rover.
+The final design consisted of a two rovers, a leader and follower pair. The leader rover would search for the object and signal the follower rover when it should continue following. When the leader rover finds the object, a robotic arm mounted on the leader rover would pick up the object and place it onto the follower rover. The design was broken up into four autonomous parts: navigation, driving the rover, movement of the robotic arm, and the follower rover. I was responsible for the follower rover. Each autonomous part communicated over the local network using JSON messages sent over MQTT.
 
 Hardware:
 - TI CC3220SF
