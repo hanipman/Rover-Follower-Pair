@@ -29,10 +29,13 @@ The force sensor is used to detect if an object is caught by the follower rover.
 The follower consists of three states: following, searching, and waiting.
 
 In the following state the rover waits for the signal and only moves forward when the signal is detected.
+
 ![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/following_resize.gif)
 
 In the searching state the rover spins in place until it finds an object of the set color. The rover will enter this state from the following state if no signal is found within a duration.
+
 ![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/following_resize.gif)
 
 The waiting state is exclusive for when the object is found. The rover can break this state only by successfully catching the object. At this point the follower rover goes into the following state.
+
 ![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/following_resize.gif)
