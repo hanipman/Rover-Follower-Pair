@@ -34,8 +34,8 @@ In the following state the rover waits for the signal and only moves forward whe
 
 In the searching state the rover spins in place until it finds an object of the set color. The rover will enter this state from the following state if no signal is found within a duration.
 
-![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/following_resize.gif)
+![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/searching.gif)
 
 The waiting state is exclusive for when the object is found. The rover can break this state only by successfully catching the object. At this point the follower rover goes into the following state.
 
-![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/following_resize.gif)
+![](https://github.com/hanipman/Rover-Follower-Pair/blob/master/images/waiting_for_object.gif)
